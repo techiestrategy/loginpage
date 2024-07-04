@@ -1,0 +1,110 @@
+body {
+    font-family: "Figtree", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    margin: 0px;
+    min-height: 100vh;
+    padding: 0px;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 150px;
+    font-weight: 100;
+}
+
+.user_form {
+    width: 30%;
+    background-color: #090e43;
+    padding: 30px;
+}
+
+.info_display {
+    width: 70%;
+    background-color: red;
+    display: grid;
+    place-items: center;
+    background-image: url(../images/a50efd1b85ee24cc36e331a99f7c8925.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+
+.user_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle-user {
+    font-size: 120px;
+    margin-bottom: 40px;
+}
+
+
+.single-input {
+    width: 100%;
+    border: 1px solid #c1c1c1;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.single-input i {
+    padding: 8px 16px;
+    color: #0d249b;
+}
+
+.single-input input {
+    border: 0px solid #c1c1c1;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    font-size: 15px;
+}
+
+.submit-btn {
+    border: 0px solid #c1c1c1;
+    margin-top: 30px;
+
+}
+
+.submit-btn input {
+    background: #0d249b;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.forgot_signin {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.forgot_signin p {
+    font-size: 12px;
+}
+
+@media (max-width: 480px) { 
+    .info_display {
+        display: none;
+    }
+
+    .user_form {
+        width: 100%;
+        background-color: #090e43;
+        padding: 30px;
+    }
+ }
