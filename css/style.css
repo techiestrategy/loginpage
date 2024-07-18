@@ -16,20 +16,20 @@ body {
     height: 100vh;
 }
 
-header {
-    text-align: center;
-    font-weight: 100;
-    text-transform: uppercase;
-    font-size: 10px;
-    margin-bottom: 150px;
-    font-weight: 100;
-}
-
 .user_form {
     width: 30%;
     background-color: #090e43;
     padding: 30px;
 }
+
+.user_form header {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-bottom: 150px;
+}
+
 
 .info_display {
     width: 70%;
@@ -48,7 +48,7 @@ header {
     align-items: center;
 }
 
-.fa-circle-user {
+.user_icon .fa-circle-user {
     font-size: 120px;
     margin-bottom: 40px;
 }
